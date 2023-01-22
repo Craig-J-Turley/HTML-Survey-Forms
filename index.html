@@ -1,0 +1,73 @@
+<!DOCTYPE htmnl>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Programming Languages Survey</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Add User</legend>
+
+                <div>
+                    <label for="input">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                
+                <div>
+                    <label for="input">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="input">Email Address</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status" name="user_status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div id="prompt">
+                    <p>Choose your favorite programming language:</p>
+                    <input type="radio" id="html" name="language" value="html">
+                    <label for="html">HTML</label>
+                    <input type="radio" id="css" name="language" value="css">
+                    <label for="css">CSS</label>
+                    <input type="radio" id="javascript" name="language" value="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <label for="cuurent_date">Current Date</label>
+                    <input type="date" id="expiration_date" name="expiration_date">
+                </div>
+
+                <div>
+                    <label for="sign_up">Would you like to signup for the newsletter?</label>
+                    <input type="checkbox" id="newsLetter" name="news_letter">
+                </div>
+
+                <div>
+                    <label for="agree">Check here to agree to the terms and conditions</label>
+                    <input type="checkbox" id="termsAndConditions" name="terms_and_conditions">
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
